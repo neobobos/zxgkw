@@ -8,14 +8,14 @@
 ### 经过测试发现，服务器验证前端验证码，不需要cookies也可以通过并拿到数据。  
 ### 在2017-2019年，贾跃亭先生共收获32个法院确定执行的案号，至于每个官司里的多少钱，还有待进一步细数，确实太多太大了，汗哦。  
 
-###### python 3.6+   
-###### PIL  
-###### pytesseract  
+### requirements.txt
+###### python 3.6+ ，PIL，pytesseract，requests_html,requests,time,random
 
 ```
 from requests_html import HTMLSession, user_agent  
 from PIL import Image  
-from pytesseract import pytesseract  
+from pytesseract import pytesseract 
+import requests,random,time
 
 //验证码破解用简单的pytesseract示范
 
