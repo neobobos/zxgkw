@@ -1,5 +1,5 @@
 # zxgkw
-查查贾跃亭有多少官司和债务。[2019-07-13]
+# 查查贾跃亭有多少官司和债务,依此类推。[2019-07-13]
 
 声明：本案例仅用作学习和研究，切勿用作其它用途。
 
@@ -15,7 +15,7 @@ PIL
 pytesseract
 
 --------------------------------------------------------------------------------------
-'<
+'''
 from requests_html import HTMLSession, user_agent
 from PIL import Image
 from pytesseract import pytesseract
@@ -70,7 +70,7 @@ data = {
 }
 res = requests.post(post_url, data=data, headers=headers)
 print(res.text)
->'
+'''
 
 ### 下面是反馈的数据，这里用了“贾跃亭”为搜索关键词，找不到人了，忽然想起他了，别打我，哈  
 
