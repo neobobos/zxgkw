@@ -1,0 +1,5 @@
+python>=3.6
+requests_html
+PIL
+pytesseract
+requests
